@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class ResourceCentre {
 
-
+	
 	private static final int OPTION_RETURN = 4;
 	private static final int OPTION_LOAN = 3;
 	private static final int OPTION_ADD = 2;
@@ -96,7 +96,7 @@ public class ResourceCentre {
 
 	}
 
-	public static void itemTypeMenu() {
+	public static void itemTypeMenu() { //extract method
 		ResourceCentre.setHeader("ITEM TYPES");
 		System.out.println("1. Camcorder");
 		System.out.println("2. Chromebook");
