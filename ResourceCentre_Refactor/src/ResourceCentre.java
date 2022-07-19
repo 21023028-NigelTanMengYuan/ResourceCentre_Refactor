@@ -96,7 +96,7 @@ public class ResourceCentre {
 
 	}
 
-	public static void itemTypeMenu() { //extract method
+	public static void itemTypeMenu() { //extract methodx
 		ResourceCentre.setHeader("ITEM TYPES");
 		System.out.println("1. Camcorder");
 		System.out.println("2. Chromebook");
